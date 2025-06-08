@@ -16,8 +16,8 @@ const KEYBOARDS = {
         }
       ],
       [{ 
-        text: "Source Code ↗️", 
-        url: `https://github.com/Sieun-alt/Temp-Mail-Bot`
+        text: "Developer 👤", 
+        url: `https://t.me/XinoZ?text=halo`
       }],
     ]
   } satisfies InlineKeyboardMarkup,
@@ -30,8 +30,8 @@ const KEYBOARDS = {
         { text: "Close", callback_data: "close" }
       ],
       [{ 
-        text: "Source Code ↗️", 
-        url: `https://github.com/sieun-alt/Temp-Mail-Bot`
+        text: "Developer 👤", 
+        url: `https://t.me/XinoZ?text=halo`
       }],
     ]
   } satisfies InlineKeyboardMarkup,
@@ -43,8 +43,8 @@ const KEYBOARDS = {
         { text: "Close", callback_data: "close" }
       ],
       [{ 
-        text: "Source Code ↗️", 
-        url: `https://github.com/sieun-alt/Temp-Mail-Bot`
+        text: "Developer 👤", 
+        url: `https://t.me/XinoZ?text=halo`
       }],
     ]
   } satisfies InlineKeyboardMarkup,
@@ -58,8 +58,8 @@ const KEYBOARDS = {
         }
       ],
       [{ 
-        text: "Source Code ↗️", 
-        url: `https://github.com/sieun-alt/Temp-Mail-Bot`
+        text: "Developer 👤", 
+        url: `https://t.me/XinoZ?text=halo`
       }],
     ]
   } satisfies InlineKeyboardMarkup
@@ -93,7 +93,7 @@ export const BotController = {
       if (!isSubscribed) {
         return TelegramService.sendMessage(
           chatId,
-          "❌ *Please join our channel to use this bot:* [@Private_Bots](https://t.me/Private_Bots)",
+          "❌ *Please join our channel to use this bot:* [@xxdte](https://t.me/xxdte)",
           {
             parse_mode: "Markdown",
             reply_markup: KEYBOARDS.joinChannel,
